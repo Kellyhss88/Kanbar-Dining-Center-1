@@ -1,0 +1,76 @@
+/* Your CSS below this line... */
+  /* font:Georgia;Trebuchet */
+* {box-sizing: border-box;}
+.JeffersonLogo{
+  height: 4em;
+}
+.WelcomeKanbar{
+  margin-top: 3em;
+  font-family: Helvetica, Georgia, serif;
+  color:#152456;
+  background-color:transparent;
+}
+h2{
+  font-family: Helvetica, Georgia, serif;
+  font-size:1.8em;
+}
+h3{
+  font-family: Helvetica, Georgia, serif;
+  font-size:1.3em;
+}
+h4{
+  font-family: Georgia, serif;
+  font-size:1.3em;
+}
+.menu-check{
+  margin-top: 1.5em;
+}
+.diningcenter{
+color:#152456;
+background-color: white;
+opacity: 80%;
+margin-top: 2em;
+}
+
+.row-footer{
+  /* display: flex; */
+  justify-content: center;
+  font-weight: bold;
+  background-color: #152456;
+  color: #ffffff;
+  width:100%;
+  padding-bottom:2em;
+  padding-top:2em;
+  margin-top:1em;
+}
+.row-footer-item{
+  padding: 0 4em 0 4em;
+
+}
+.icon-size{
+font-size:2.5em;
+}
+.order{
+  padding-left: 0.1em;
+}
+.reward{
+  padding-left: 0.4em;
+}
+.recent{
+  padding-left: 0.2em;
+}
+.more{
+  padding-left: 0.1em;
+}
+.icon-color{
+    color: #ffffff;
+    background-color:transparent;
+}
+a:hover{
+  color:#ece819;
+  background-color:transparent;
+}
+.carousel{
+  width:100%;
+  margin:0px auto;
+}
