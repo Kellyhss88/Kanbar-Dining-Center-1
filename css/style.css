@@ -3,6 +3,7 @@
 * {box-sizing: border-box;}
 .JeffersonLogo{
   height: 4em;
+  padding-right: 3em;
 }
 .WelcomeKanbar{
   margin-top: 3em;
@@ -32,45 +33,50 @@ opacity: 80%;
 margin-top: 2em;
 }
 
-.row-footer{
-  /* display: flex; */
-  justify-content: center;
-  font-weight: bold;
+.row-footer-item{
+  display: flex;
   background-color: #152456;
   color: #ffffff;
   width:100%;
-  padding-bottom:2em;
-  padding-top:2em;
-  margin-top:1em;
+  padding:2em 0 2em 0;
+  justify-content: center;
 }
-.row-footer-item{
-  padding: 0 4em 0 4em;
+.copyright-color{
+  color:#ffffff;
+  background-color: transparent;
 
 }
-.icon-size{
-font-size:2.5em;
+.nav-item{
+  padding: 1.3em 2em 0 4em;
+  font-size:1.3em;
+  font-weight:bold;
 }
-.order{
-  padding-left: 0.1em;
+.nav-item-signin{
+  padding: 1.8em 4em 0 3em;
+  font-size:1em;
 }
-.reward{
-  padding-left: 0.4em;
+.nav-item-signout{
+  /* padding: 1.8em 1em 0 3em; */
+  font-size:1em;
 }
-.recent{
-  padding-left: 0.2em;
-}
-.more{
-  padding-left: 0.1em;
-}
-.icon-color{
-    color: #ffffff;
+.hover-color{
+    color: #152456;
     background-color:transparent;
 }
 a:hover{
-  color:#ece819;
+  color:#59B7df;
   background-color:transparent;
+  text-decoration:none;
 }
 .carousel{
   width:100%;
   margin:0px auto;
 }
+
+.form {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    padding-top:80px;
+    padding-bottom: 20px;
+  }
